@@ -1,5 +1,5 @@
 package concepts.abstractKeyWord;
-
+//Concrete Class
 public class AccordAC extends Accord{
     @Override
     public void turnOnAC() {
