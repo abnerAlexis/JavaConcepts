@@ -1,8 +1,8 @@
 package concepts.encapsulation.human;
 
 public class Human {
-   private String name;
-   private int age;
+   private final String name;
+   private final int age;
 
    public Human(String name, int age) {
        this.name = name;

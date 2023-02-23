@@ -19,7 +19,7 @@ public class UsingArrays {
             }
         }
         //Print jagged array
-        for (int n[] : jaggedArray) {
+        for (int[] n : jaggedArray) {
             for (int m : n) {
                 System.out.print(m + " ");
             }

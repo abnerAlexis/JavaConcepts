@@ -9,6 +9,6 @@ public interface Hokage {
     //All methods in an interface are abstract
     //by default.
 
-    public abstract void show();
+    void show();
     void config();
 }

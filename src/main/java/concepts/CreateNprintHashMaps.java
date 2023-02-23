@@ -21,7 +21,7 @@ public class CreateNprintHashMaps {
 
     private static void printMapElements(Map<String, Integer> nameNage) {
         for (String name: nameNage.keySet()) {
-            String key = name.toString();
+            String key = name;
             int value = nameNage.get(name);
             System.out.println(key + " is " + value + " year old.");
         }

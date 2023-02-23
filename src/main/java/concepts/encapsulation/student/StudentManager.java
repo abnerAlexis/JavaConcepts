@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class StudentManager {
     private static int counter = 10000;
-    private static Map<Integer, Student> students = new HashMap<>();
+    private static final Map<Integer, Student> students = new HashMap<>();
     private static StudentManager studentManager;
 
     private StudentManager() {}

@@ -9,7 +9,7 @@ public class App {
 
     private static void upCastingNdownCasting() {
         //Up-casting - (SuperClass) doesn't need to be there. The code below without it up-casts by default.
-        SuperClass obj = (SuperClass) new ExtendingClass();
+        SuperClass obj = new ExtendingClass();
         obj.printData1();
         //Down-casting
         ExtendingClass obj1 = (ExtendingClass) obj;

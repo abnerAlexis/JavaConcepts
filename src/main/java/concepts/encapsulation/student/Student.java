@@ -1,9 +1,9 @@
 package concepts.encapsulation.student;
 
 public class Student {
-    private String firstName;
-    private String lastName;
-    private int studentId;
+    private final String firstName;
+    private final String lastName;
+    private final int studentId;
 
     public Student(String firstName, String lastName, int studentId) {
         this.firstName = firstName;
