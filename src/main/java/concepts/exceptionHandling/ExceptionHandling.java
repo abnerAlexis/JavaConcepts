@@ -1,6 +1,6 @@
 package concepts.exceptionHandling;
 
-public class App {
+public class ExceptionHandling {
     public static void main(String[] args) {
         int n1 = 9;
         int n2 = 2;
