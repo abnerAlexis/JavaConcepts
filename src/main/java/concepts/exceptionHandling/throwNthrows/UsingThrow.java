@@ -1,6 +1,6 @@
 package concepts.exceptionHandling.throwNthrows;
 
-public class UsingThrowNthrows {
+public class UsingThrow {
     public static void main(String[] args) {
         int i = 20;
         int j = 0;
@@ -19,6 +19,6 @@ public class UsingThrowNthrows {
         catch (Exception e) {
             System.out.println("Something went wrong.\n" + e);
         }
-        System.out.println("Goob bye!");
+        System.out.println("Good bye!");
     }
 }

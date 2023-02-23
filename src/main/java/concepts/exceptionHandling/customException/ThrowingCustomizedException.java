@@ -9,10 +9,10 @@ public class ThrowingCustomizedException {
             j = 18 / i;
             System.out.println(18 + " / " + i + " = " + 18/i);
             if (j == 0) {
-                throw new CustomException("I don't want to print zero.");
+                throw new ArithmeticException("I don't want to print zero.");
             }
         }
-        catch (CustomException e) {
+        catch (ArithmeticException e) {
             j = 18 / -18;
             System.out.println(j + " is the default output due to exception handling.\n" + e);
         }
