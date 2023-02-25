@@ -1,4 +1,4 @@
-package concepts.thread;
+package concepts.thread.workingWithLambdaExpression;
 
 public class Greets  implements Runnable{
     public void run() {

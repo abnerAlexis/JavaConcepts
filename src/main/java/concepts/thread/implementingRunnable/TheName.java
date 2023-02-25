@@ -1,4 +1,4 @@
-package concepts.thread;
+package concepts.thread.implementingRunnable;
 
 public class TheName extends Greets implements Runnable{
     public void run() {

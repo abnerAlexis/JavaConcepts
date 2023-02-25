@@ -1,4 +1,4 @@
-package concepts.thread;
+package concepts.thread.implementingRunnable;
 
 public class App {
     public static void main(String[] args) {
